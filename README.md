@@ -1,17 +1,27 @@
-# flutter_vibe_1
+# VibeLab
 
-A new Flutter project.
+A playful, multi-screen Flutter app for exploring what Flutter and Dart can do.
+No account, network connection, or extra package is needed.
 
-## Getting Started
+## Explore
 
-This project is a starting point for a Flutter application.
+- **Home:** jump into a mini quest, widget tour, playground, or quiz.
+- **Widget zoo:** search and filter bite-sized Flutter concepts, open examples,
+  and save topics.
+- **Playground:** change colors, corner radius, size, and content while seeing
+  Flutter state and implicit animations in action.
+- **Tiny quiz:** answer four beginner questions and keep your best score.
+- **Profile:** see your progress and switch between light and dark themes.
 
-A few resources to get you started if this is your first Flutter project:
+## Run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```shell
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run the widget tests with:
+
+```shell
+flutter test
+```
